@@ -37,20 +37,30 @@ OfficeLife aims to be a combination of softwares like BambooHR, Officevibe and M
 
 Below is a comprehensive list of all the features of OfficeLife:
 
-* Ability to manage all employees at a Human Resources level,
-* Ability to manage teams
-    * Associate employees to them,
-    * Broadcast news about the team to all team members,
-* Ability to broadcast company news,
-* Ability to define holidays and time offs schedules on a yearly basis,
-* From an employee perspective:
-    * Ability to define name, email and physical address
-    * Ability to define managers and direct reports (link between employees),
-    * Ability to add daily work logs to inform the team and the company,
-    * Ability to indicate how you feel on any given day,
-    * Ability
+<ul>
+  <li class="ml-4 pl-1">Ability to manage all employees at a Human Resources level,</li>
+  <li class="ml-4 pl-1">Ability to manage teams</li>
+  <li class="ml-4 pl-1 list-none">
+    <ul>
+      <li class="ml-4 pl-1">Associate employees to them,</li>
+      <li class="ml-4 pl-1">Broadcast news about the team to all team members,</li>
+    </ul>
+  </li>
+  <li class="ml-4 pl-1">Ability to broadcast company news,</li>
+  <li class="ml-4 pl-1">Ability to define holidays and time offs schedules on a yearly basis,</li>
+  <li class="ml-4 pl-1">From an employee perspective:</li>
+  <li class="ml-4 pl-1 list-none">
+    <ul>
+      <li class="ml-4 pl-1">Ability to define name, email and physical address</li>
+      <li class="ml-4 pl-1">Ability to define managers and direct reports (link between employees),</li>
+      <li class="ml-4 pl-1">Ability to add daily work logs to inform the team and the company,</li>
+      <li class="ml-4 pl-1">Ability to indicate how you feel on any given day,</li>
+      <li class="ml-4 pl-1">Ability</li>
+    </ul>
+  </li>
+</ul>
 
-### Why is OfficeLife different
+### Why is OfficeLife different  {#different}
 
 First and foremost, OfficeLife is different because it doesn’t try to cover all the use cases for every problem. I don't try to suit everyone. OfficeLife tries very hard to be really simple to use and bring a set of features that most companies will find useful. OfficeLife is strongly opinionated.
 
@@ -64,7 +74,7 @@ In terms of user experience, the software aims to be simple to use with the mini
 
 Finally, OfficeLife is open source and can be installed on your own server if you so desire, for free and without any fees.
 
-### Pricing and open source
+### Pricing and open source {#pricing}
 
 OfficeLife comes in two flavours: open source and hosted.
 
