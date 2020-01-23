@@ -60,7 +60,7 @@ Below is a comprehensive list of all the features of OfficeLife:
   </li>
 </ul>
 
-### Why is OfficeLife different  {#different}
+## Why is OfficeLife different  {#different}
 
 First and foremost, OfficeLife is different because it doesn’t try to cover all the use cases for every problem. I don't try to suit everyone. OfficeLife tries very hard to be really simple to use and bring a set of features that most companies will find useful. OfficeLife is strongly opinionated.
 
@@ -74,7 +74,7 @@ In terms of user experience, the software aims to be simple to use with the mini
 
 Finally, OfficeLife is open source and can be installed on your own server if you so desire, for free and without any fees.
 
-### Pricing and open source {#pricing}
+## Pricing and open source {#pricing}
 
 OfficeLife comes in two flavours: open source and hosted.
 
@@ -84,7 +84,7 @@ The hosted version, which can be found on https://officelife.io, is the exact sa
 
 While the open source version is free, the hosted version is supported by subscriptions. You pay a fair amount of money each month, and in exchange you have access to your own OfficeLife’s account. The price is fixed, $100 USD per month (or $1000 USD per year — a good discount!), no matter the number of employees, users or company size. Yes, I hate those other services which charge a small amount of money per user, like $2 per user – you think it’s cheap, but if your company has 200 employees, you end up with $400 USD to pay each month, which is insane.
 
-#### Isn’t this price too expensive for my tiny company?
+### Isn’t this price too expensive for my tiny company?
 
 Perhaps. And I’m sorry about this. However if the price is too expensive for you, which I completely understand, you can still download the open source version on Github and install it on your own server. It’s cheaper, and also safer in terms of privacy 😀
 
