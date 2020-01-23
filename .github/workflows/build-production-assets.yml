@@ -1,6 +1,6 @@
 name: Build production assets
 
-on: [push]
+on: [pull_request]
 
 jobs:
   build-site:
