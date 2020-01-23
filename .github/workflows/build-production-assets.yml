@@ -1,6 +1,9 @@
 name: Build production assets
 
-on: [pull_request]
+on:
+  push:
+    branches-ignore:
+      - 'master'
 
 jobs:
   build-site:
