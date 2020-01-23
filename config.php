@@ -27,4 +27,7 @@ return [
     'url' => function ($page, $path) {
         return starts_with($path, 'http') ? $path : '/' . trimPath($path);
     },
+    'lastModificationDate' => function ($page) {
+        return \Carbon\Carbon::createFromTimestamp($page->getModifiedTime())->toCookieString();
+    },
 ];
