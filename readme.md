@@ -1,8 +1,8 @@
 # Documentation for OfficeLife
 
-This repository is the documentation fo OfficeLife, a tool used to take the pulse of your company and empower managers to take care of their employees.
+This repository is the official documentation of OfficeLife, a tool used to take the pulse of your company and empower managers to take care of their employees.
 
-This documentation is based on Jigsaw, a static site generator based on PHP/Laravel.
+This documentation is powered by [Jigsaw](https://jigsaw.tighten.co/docs), a static site generator.
 
 ### How to use
 

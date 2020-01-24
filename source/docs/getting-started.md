@@ -60,7 +60,7 @@ Below is a comprehensive list of all the features of OfficeLife:
   </li>
 </ul>
 
-## Why is OfficeLife different  {#different}
+## Why is OfficeLife different {#different}
 
 First and foremost, OfficeLife is different because it doesn’t try to cover all the use cases for every problem. I don't try to suit everyone. OfficeLife tries very hard to be really simple to use and bring a set of features that most companies will find useful. OfficeLife is strongly opinionated.
 

@@ -14,6 +14,7 @@ return [
         'url' => 'docs/getting-started',
         'children' => [
             'What is OfficeLife' => 'docs/getting-started',
+            'Values' => 'docs/values',
             'Open startup' => 'docs/open-startup',
             'Development' => 'docs/development',
         ],
