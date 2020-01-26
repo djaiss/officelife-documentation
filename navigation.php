@@ -19,5 +19,14 @@ return [
             'Development' => 'docs/development',
         ],
     ],
+    'Teams' => [
+        'url' => 'docs/teams',
+        'children' => [
+            'What are teams' => 'docs/what-are-teams',
+            'Team description' => 'docs/values',
+            'Open startup' => 'docs/open-startup',
+            'Development' => 'docs/development',
+        ],
+    ],
     'Official site' => 'https://officelife.io',
 ];
