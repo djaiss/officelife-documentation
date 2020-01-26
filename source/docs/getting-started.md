@@ -13,12 +13,10 @@ OfficeLife exists to offer a solution for this problem. I think most companies n
 
 At any given point, managers and employees want to know:
 
-<ul>
-  <li class="ml-4 pl-1">How do the employees feel,</li>
-  <li class="ml-4 pl-1">What is the current structure of the teams, offices, who manages who,…</li>
-  <li class="ml-4 pl-1">What people are working on right now,</li>
-  <li class="ml-4 pl-1">How can we improve the communication between employees and teams.</li>
-</ul>
+* How do the employees feel,
+* What is the current structure of the teams, offices, who manages who,…
+* What people are working on right now,
+* How can we improve the communication between employees and teams.
 
 I believe that all those answers come from knowing employees really well. This is why it all starts with a basic Human Resources toolset.
 
@@ -26,41 +24,29 @@ Good luck finding a tool that answers all those points. Some tools do this, but 
 
 This is why I’ve built OfficeLife. Its main goals are to:
 
-<ul>
-  <li class="ml-4 pl-1">give an overview of how employees and managers feel right now,</li>
-  <li class="ml-4 pl-1">help managers be more empathetic,</li>
-  <li class="ml-4 pl-1">help companies be better at managing people's dreams and ambitions,</li>
-  <li class="ml-4 pl-1">help employees better communicate with their employers.</li>
-</ul>
+* give an overview of how employees and managers feel right now,
+* help managers be more empathetic,
+* help companies be better at managing people's dreams and ambitions,
+* help employees better communicate with their employers.
 
 OfficeLife aims to be a combination of softwares like BambooHR, Officevibe and Monica – although in a single application and at a much more reasonable price.
 
 Below is a comprehensive list of all the features of OfficeLife:
 
-<ul>
-  <li class="ml-4 pl-1">Ability to manage all employees at a Human Resources level,</li>
-  <li class="ml-4 pl-1">Ability to manage teams</li>
-  <li class="ml-4 pl-1 list-none">
-    <ul>
-      <li class="ml-4 pl-1">Associate employees to them,</li>
-      <li class="ml-4 pl-1">Broadcast news about the team to all team members,</li>
-    </ul>
-  </li>
-  <li class="ml-4 pl-1">Ability to broadcast company news,</li>
-  <li class="ml-4 pl-1">Ability to define holidays and time offs schedules on a yearly basis,</li>
-  <li class="ml-4 pl-1">From an employee perspective:</li>
-  <li class="ml-4 pl-1 list-none">
-    <ul>
-      <li class="ml-4 pl-1">Ability to define name, email and physical address</li>
-      <li class="ml-4 pl-1">Ability to define managers and direct reports (link between employees),</li>
-      <li class="ml-4 pl-1">Ability to add daily work logs to inform the team and the company,</li>
-      <li class="ml-4 pl-1">Ability to indicate how you feel on any given day,</li>
-      <li class="ml-4 pl-1">Ability</li>
-    </ul>
-  </li>
-</ul>
+* Ability to manage all employees at a Human Resources level,
+* Ability to manage teams
+    * Associate employees to them,
+    * Broadcast news about the team to all team members,
+* Ability to broadcast company news,
+* Ability to define holidays and time offs schedules on a yearly basis,
+* From an employee perspective:
+    * Ability to define name, email and physical address
+    * Ability to define managers and direct reports (link between employees),
+    * Ability to add daily work logs to inform the team and the company,
+    * Ability to indicate how you feel on any given day,
+    * Ability
 
-## Why is OfficeLife different  {#different}
+## Why is OfficeLife different {#different}
 
 First and foremost, OfficeLife is different because it doesn’t try to cover all the use cases for every problem. I don't try to suit everyone. OfficeLife tries very hard to be really simple to use and bring a set of features that most companies will find useful. OfficeLife is strongly opinionated.
 

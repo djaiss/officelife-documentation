@@ -1,3 +1,5 @@
+# inspired by https://james.brooks.page/blog/jigsaw-github-actions/
+
 name: Build production assets
 
 on:

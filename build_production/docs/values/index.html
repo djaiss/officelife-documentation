@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Building a navigation menu for your site">
+  <meta name="description" content="All the values OfficeLife lives by.">
 
   <meta property="og:site_name" content="OfficeLife Documentation Portal" />
-  <meta property="og:title" content="Navigation | OfficeLife Documentation Portal" />
-  <meta property="og:description" content="Building a navigation menu for your site" />
-  <meta property="og:url" content="https://docs.officelife.io/docs/navigation" />
+  <meta property="og:title" content="Values | OfficeLife Documentation Portal" />
+  <meta property="og:description" content="All the values OfficeLife lives by." />
+  <meta property="og:url" content="https://docs.officelife.io/docs/values" />
   <meta property="og:image" content="/assets/img/logo.png" />
   <meta property="og:type" content="website" />
 
@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   
-  <title>OfficeLife Documentation Portal | Navigation</title>
+  <title>OfficeLife Documentation Portal | Values</title>
 
   <link rel="home" href="https://docs.officelife.io">
   <link rel="icon" href="/favicon.ico">
@@ -27,7 +27,7 @@
     <!-- Insert analytics code here -->
   
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/build/css/main.css?id=08a81097ecba3e2ec472">
+  <link rel="stylesheet" href="/assets/build/css/main.css?id=7b6245f8ad8f93bb5fd9">
 
   </head>
 
@@ -120,7 +120,7 @@
             <li class="pl-4 list-none">
             
         <a href="/docs/getting-started"
-            class="lvl0   nav-menu__item hover:text-blue-500"
+            class="lvl0 lvl0-active  nav-menu__item hover:text-blue-500"
         >
             Getting Started
         </a>
@@ -133,6 +133,63 @@
             class="lvl1   nav-menu__item hover:text-blue-500"
         >
             What is OfficeLife
+        </a>
+    
+    </li>
+            <li class="pl-4 list-none">
+            
+        <a href="/docs/values"
+            class="lvl1  active font-semibold text-blue-500 no-underline nav-menu__item hover:text-blue-500"
+        >
+            Values
+        </a>
+    
+    </li>
+            <li class="pl-4 list-none">
+            
+        <a href="/docs/open-startup"
+            class="lvl1   nav-menu__item hover:text-blue-500"
+        >
+            Open startup
+        </a>
+    
+    </li>
+            <li class="pl-4 list-none">
+            
+        <a href="/docs/development"
+            class="lvl1   nav-menu__item hover:text-blue-500"
+        >
+            Development
+        </a>
+    
+    </li>
+    </ul>
+    </li>
+            <li class="pl-4 list-none">
+            
+        <a href="/docs/teams"
+            class="lvl0 lvl0-active  nav-menu__item hover:text-blue-500"
+        >
+            Teams
+        </a>
+    
+            
+        <ul class="my-0">
+            <li class="pl-4 list-none">
+            
+        <a href="/docs/what-are-teams"
+            class="lvl1   nav-menu__item hover:text-blue-500"
+        >
+            What are teams
+        </a>
+    
+    </li>
+            <li class="pl-4 list-none">
+            
+        <a href="/docs/values"
+            class="lvl1  active font-semibold text-blue-500 no-underline nav-menu__item hover:text-blue-500"
+        >
+            Team description
         </a>
     
     </li>
@@ -170,35 +227,17 @@
 
     <div class="w-full lg:w-3/5">
       <div class="DocSearch-content break-words pb-5 lg:pl-4 font-light p-5 sm:shadow md:rounded-lg bg-white" v-pre>
-        <h1 id="navigation">Navigation</h1>
-<p>The navigation menu in the left-hand sidebar is defined using an array in <code>navigation.php</code>. Nested pages can be added by using the <code>children</code> associative array.</p>
-<pre><code class="language-php">&lt;?php
-// navigation.php
-
-return [
-    'Getting Started' =&gt; [
-        'url' =&gt; 'docs/getting-started',
-        'children' =&gt; [
-            'Customizing Your Site' =&gt; 'docs/customizing-your-site',
-            'Navigation' =&gt; 'docs/navigation',
-            'Algolia DocSearch' =&gt; 'docs/algolia-docsearch',
-            'Custom 404 Page' =&gt; 'docs/custom-404-page',
-        ],
-    ],
-    'Jigsaw Docs' =&gt; 'https://jigsaw.tighten.co/docs/installation',
-];
-
-// config.php
-'navigation' =&gt; require_once('navigation.php'),
-
-// blade files
-$page-&gt;navigation</code></pre>
-        <p class="pb-0 text-sm m-0 text-center">⏰ This document was last changed on Thursday, 23-Jan-2020 03:30:48 UTC.</p>
+        <h1 id="values">Values</h1>
+<p>OfficeLife is a one-man company. My project, my baby, in fact. In everything that I do, I try to follow the following values.</p>
+<ul>
+<li>Color is not important.</li>
+</ul>
+        <p class="pb-0 text-sm m-0 text-center">⏰ This document was last changed on Sunday, 26-Jan-2020 21:38:49 UTC.</p>
       </div>
 
       <div class="text-sm text-gray-600 mt-6">
         <ul class="list-none">
-          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/navigation.md">edit this page</a> on Github.</li>
+          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/values.md">edit this page</a> on Github.</li>
           <li class="ml-4 pb-7">If you like to <strong>suggest an improvement to this doc</strong>, <a href="https://github.com/djaiss/officelife-documentation/issues">create an issue</a> on the repository on Github.</li>
           <li class="ml-4 text-center">No matter what, thanks for considering helping this project 🙏</li>
         </ul>
