@@ -1,0 +1,2 @@
+[context.production]
+    publish="build_production"

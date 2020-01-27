@@ -46,7 +46,10 @@ These news serve as a way to inform all team members about important events or i
 
 A team has a life on its own. There are many online places that are useful to a particular team: a dedicated Slack channel, a mailing list name, a private joke... Because each team is unique, it deserves its own set of links.
 
-A team can have multiple links, called useful links. Anyone can add, edit or remove those links. Use this feature to help your team, or guide users who visit your Team page.
+A team can have multiple links, called "useful links".
+
+* Anyone in the team, and employees with the [HR and administrator roles](/docs/understanding-roles), can add, edit or remove these links.
+* A link has a type. Right now we support only Slack, emails and external urls.
 
 ### Team description and useful links
 
