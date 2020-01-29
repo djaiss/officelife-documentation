@@ -46,7 +46,7 @@ Below is a comprehensive list of all the features of OfficeLife:
     * Ability to indicate how you feel on any given day,
     * Ability
 
-## Why is OfficeLife different {#different}
+## How is OfficeLife different {#different}
 
 First and foremost, OfficeLife is different because it doesn’t try to cover all the use cases for every problem. I don't try to suit everyone. OfficeLife tries very hard to be really simple to use and bring a set of features that most companies will find useful. OfficeLife is strongly opinionated.
 
@@ -70,10 +70,10 @@ The hosted version, which can be found on https://officelife.io, is the exact sa
 
 While the open source version is free, the hosted version is supported by subscriptions. You pay a fair amount of money each month, and in exchange you have access to your own OfficeLife’s account. The price is fixed, $100 USD per month (or $1000 USD per year — a good discount!), no matter the number of employees, users or company size. Yes, I hate those other services which charge a small amount of money per user, like $2 per user – you think it’s cheap, but if your company has 200 employees, you end up with $400 USD to pay each month, which is insane.
 
-### Isn’t this price too expensive for my tiny company?
+### Isn’t this price too expensive for my tiny company? {#isnt-it-too-expensive}
 
 Perhaps. And I’m sorry about this. However if the price is too expensive for you, which I completely understand, you can still download the open source version on Github and install it on your own server. It’s cheaper, and also safer in terms of privacy 😀
 
-#### Why is this not more expensive?
+### Why is this not more expensive? {#why-not-more-expensive}
 
 Well. OfficeLife is my baby and I’m the only one working on it. As a matter of fact I work as hard as I can on this product, day and night. I don't have employees to pay. I don't have a fancy office. I just need to cover my family needs. If I can convince 200 companies to pay for this service, I can make a decent living. And it’s enough for me.
