@@ -16,7 +16,7 @@ Teams are public. It’s part of the philosophy of OfficeLife to encourage trust
 When you create a team in OfficeLife, you'll have access to a wide range of features:
 
 * [Create a team](/docs/create-a-team),
-* [Team leader](/docs/team-leaders),
+* [Team leader](/docs/team-leader),
 * [Team description](/docs/team-description),
 * [Team news](/docs/team-news),
 * [Useful link](/docs/team-useful-link),

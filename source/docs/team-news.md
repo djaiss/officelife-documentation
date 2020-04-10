@@ -17,7 +17,7 @@ Every team can have a dedicated set of news, called Team News. These news appear
 
 These news serve as a way to inform all team members about important events or information that members should care about.
 
-News are public.
+News are public in the entire company.
 
 ## Rules {#rules}
 
