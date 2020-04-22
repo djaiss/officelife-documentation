@@ -80,6 +80,10 @@
       </li>
     </ul>
   </footer>
+
+  <!-- Fathom - beautiful, simple website analytics -->
+  <script src="https://cdn.usefathom.com/3.js" site="KRXRUSRB"></script>
+  <!-- / Fathom -->
 </body>
 
 </html>

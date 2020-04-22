@@ -26,7 +26,7 @@
   
     <!-- Insert analytics code here -->
   
-  <link rel="stylesheet" href="/assets/build/css/main.css?id=b73500d9519c0509e6f6">
+  <link rel="stylesheet" href="/assets/build/css/main.css?id=beb3b961bf0856cc03b3">
 
   </head>
 
@@ -70,7 +70,7 @@
       <ul class="my-0">
             <li class="pl-4 list-none">
             
-        <a href="/docs/prologue"
+        <a href="/docs/release-notes"
             class="lvl0   nav-menu__item hover:text-blue-500"
         >
             Prologue
@@ -320,19 +320,30 @@
     <div class="w-full lg:w-3/5">
       <div class="DocSearch-content break-words pb-7 lg:pl-7 font-light p-7 sm:shadow md:rounded-lg bg-white" v-pre>
         <h1 id="algolia-docsearch">Algolia DocSearch</h1>
+
 <p>This starter template includes support for <a href="https://community.algolia.com/docsearch/">DocSearch</a>, a documentation indexing and search tool provided by Algolia for free. To configure this tool, you’ll need to sign up with Algolia and set your API Key and index name in <code>config.php</code>. Algolia will then crawl your documentation regularly, and index all your content.</p>
+
 <p><a href="https://community.algolia.com/docsearch/#join-docsearch-program">Get your DocSearch credentials here.</a></p>
+
 <pre><code class="language-php">// config.php
 return [
     'docsearchApiKey' =&gt; '',
     'docsearchIndexName' =&gt; '',
-];</code></pre>
+];
+</code></pre>
+
 <p>Once the <code>docsearchApiKey</code> and <code>docsearchIndexName</code> values are set in <code>config.php</code>, the search field at the top of the page is ready to use.</p>
-<img class="block m-auto" src="/assets/img/docsearch.png" alt="Screenshot of search results" />
+
+<p><img class="block m-auto" src="/assets/img/docsearch.png" alt="Screenshot of search results" /></p>
+
 <p>To help Algolia index your pages correctly, it's good practice to add a unique <code>id</code> or <code>name</code> attribute to each heading tag (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.). By doing so, a user will be taken directly to the appropriate section of the page when they click a search result.</p>
+
 <hr />
+
 <h2 id="algolia-adding-custom-styles">Adding Custom Styles</h2>
+
 <p>If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:</p>
+
 <pre><code class="language-css">/* Main dropdown wrapper */
 .algolia-autocomplete .ds-dropdown-menu {
   width: 500px;
@@ -364,10 +375,14 @@ return [
 /* Highlighted text */
 .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
   color: blue;
-}</code></pre>
+}
+</code></pre>
+
 <hr />
+
 <p>For more details, visit the <a href="https://community.algolia.com/docsearch/what-is-docsearch.html">official Algolia DocSearch documentation.</a></p>
-        <p class="pb-0 text-sm m-0 text-center pt-8">⏰ This document was last changed on Friday, 10-Apr-2020 22:14:41 UTC.</p>
+
+        <p class="pb-0 text-sm m-0 text-center pt-8">⏰ This document was last changed on Wednesday, 22-Apr-2020 19:20:18 UTC.</p>
       </div>
 
       <div class="text-sm text-gray-600 mt-8">
@@ -382,7 +397,7 @@ return [
 </section>
   </main>
 
-  <script src="/assets/build/js/main.js?id=5dd822863934b75738db"></script>
+  <script src="/assets/build/js/main.js?id=9266b01565427b0a4405"></script>
 
   <script>
     const navMenu = {
@@ -408,6 +423,10 @@ return [
       </li>
     </ul>
   </footer>
+
+  <!-- Fathom - beautiful, simple website analytics -->
+  <script src="https://cdn.usefathom.com/3.js" site="KRXRUSRB"></script>
+  <!-- / Fathom -->
 </body>
 
 </html>
