@@ -7,6 +7,6 @@ section: content
 
 # Values {#values}
 
-OfficeLife is a one-man company. My project, my baby, in fact. In everything that I do, I try to follow the following values.
+OfficeLife is a one-man company. In everything that I do, I try to follow the following values.
 
-* Color is not important.
+* Developer comes first. OfficeLife is made for developers, by developers.

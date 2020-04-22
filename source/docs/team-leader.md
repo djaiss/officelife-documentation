@@ -11,12 +11,13 @@ Introduced in OfficeLife 2020.1.
 
 ## Overview {#overview}
 
-A team has the concept of team leads. This information is useful, mainly, to understand the hierarchy of a team, and also to know who to contact when important information needs to be shared. However, there can only be one team leader per team. Perhaps I’ll change this in the future, but it’s not in the plans right now. I think teams thrive on having one boss, and that’s it.
+A team has the concept of team leads. This information is useful, mainly, to understand the hierarchy of a team, and also to know who to contact when important information needs to be shared. However, there can only be one team leader per team.
 
 ## Rules {#rules}
 
 * Everyone in the company can become a team lead.
 * An employee can be a team lead of multiple teams.
+* A team can only have one lead.
 * When a team lead is assigned to the team, if that’s not already the case, he will become part of the team.
 * However, when a team lead is unassigned, he will remain in the team until he’s manually removed.
 * Anyone in the company can see who is the team leader of a team.

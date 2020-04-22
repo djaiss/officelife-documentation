@@ -2,7 +2,7 @@
 
 return [
     'Prologue' => [
-        'url' => 'docs/prologue',
+        'url' => 'docs/release-notes',
         'children' => [
             'Release notes' => 'docs/release-notes',
             'Upgrade guide' => 'docs/upgrade-guide',
