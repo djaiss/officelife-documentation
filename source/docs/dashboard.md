@@ -11,7 +11,7 @@ Introduced in OfficeLife 2020.1.
 
 ## Overview {#overview}
 
-The dashboard is the central place of OfficeLife. It gives an overview to all employees of what they can do and what they should know. More specifically, here is an overview of what users can do:
+The dashboard is the central place of OfficeLife. It gives an overview to all employees of **what they can do** and **what they should know**. More specifically, here is an overview of what users can do:
 
 * As an employee:
   * you can indicate if you work from home,

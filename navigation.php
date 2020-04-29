@@ -21,6 +21,9 @@ return [
     ],
     'Dashboard' => [
         'url' => 'docs/dashboard',
+        'children' => [
+            'Dashboard for employees' => 'docs/dashboard-employee',
+        ],
     ],
     'Employees' => [
         'url' => 'docs/employees',

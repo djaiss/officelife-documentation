@@ -39,3 +39,7 @@ npm run production
 This documentation is hosted on [Netlify](https://app.netlify.com/sites/officelifedocumentation/overview). The page is automatically build after each commit in the Github repository. Also, for each commit, the documentation is generated automatically by Github Action and pushed back to the commit, so you don't have to think of it before creating and pushing your PR.
 
 Netlify takes care of minifying all assets upon deployment.
+
+## Adding content
+
+New content should be added to the `navigation.php` file.
