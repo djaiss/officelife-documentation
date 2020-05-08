@@ -13,8 +13,11 @@ Deleting a team will delete everything we know about the team. First, it will re
 
 One thing will not be deleted when
 
-## Rules
-
-* A team can only be created, renamed and deleted in [Adminland](/docs/adminland) by someone with either [the HR or administrator role](/docs/understanding-roles).
-* A team shall have a unique name in the company.
-* The same applies for the team’s audit logs.
+<div class="rules">
+  <h4>Rules</h4>
+  <ul>
+    <li>A team can only be created, renamed and deleted in <a href="/docs/adminland">Adminland</a> by someone with either <a href="/docs/understanding-roles">the HR or administrator role</a>.</li>
+    <li>A team shall have a unique name in the company.</li>
+    <li>The same applies for the team’s audit logs.</li>
+  </ul>
+</div>

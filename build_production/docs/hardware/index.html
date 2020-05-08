@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Custom 404 pages with Jigsaw docs starter template">
+  <meta name="description" content="Manage your hardware inventory right into OfficeLife.">
 
   <meta property="og:site_name" content="OfficeLife Documentation Portal" />
-  <meta property="og:title" content="Custom 404 Page | OfficeLife Documentation Portal" />
-  <meta property="og:description" content="Custom 404 pages with Jigsaw docs starter template" />
-  <meta property="og:url" content="https://docs.officelife.io/docs/custom-404-page" />
+  <meta property="og:title" content="Hardware | OfficeLife Documentation Portal" />
+  <meta property="og:description" content="Manage your hardware inventory right into OfficeLife." />
+  <meta property="og:url" content="https://docs.officelife.io/docs/hardware" />
   <meta property="og:image" content="/assets/img/logo.png" />
   <meta property="og:type" content="website" />
 
@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   
-  <title>OfficeLife Documentation Portal | Custom 404 Page</title>
+  <title>OfficeLife Documentation Portal | Hardware</title>
 
   <link rel="home" href="https://docs.officelife.io">
   <link rel="icon" href="/favicon.ico">
@@ -293,7 +293,7 @@
             <li class="pl-4 list-none">
             
         <a href="/docs/company"
-            class="lvl0   nav-menu__item hover:text-blue-500"
+            class="lvl0 lvl0-active  nav-menu__item hover:text-blue-500"
         >
             Company
         </a>
@@ -303,7 +303,7 @@
             <li class="pl-4 list-none">
             
         <a href="/docs/hardware"
-            class="lvl1   nav-menu__item hover:text-blue-500"
+            class="lvl1  active font-semibold text-blue-500 no-underline nav-menu__item hover:text-blue-500"
         >
             Hardware management
         </a>
@@ -325,35 +325,40 @@
 
     <div class="w-full lg:w-3/5">
       <div class="DocSearch-content break-words pb-7 lg:pl-7 font-light p-7 sm:shadow md:rounded-lg bg-white" v-pre>
-        <h1 id="custom-404-page">Custom 404 Page</h1>
+        <h1 id="hardware">Hardware inventory management</h1>
 
-<p>This starter template includes a custom <strong>404 Not Found</strong> error page, located at <code>/source/404.blade.php</code>. <a href="/404">To preview the 404 page</a>, you can visit <code>/404</code> in your browser.</p>
+<p>Introduced in OfficeLife 2020.1.</p>
 
-<pre><code class="language-html">&lt;!-- source/404.blade.php --&gt;
-@extends('_layouts.master')
+<h2 id="overview">Overview</h2>
 
-@section('body')
-&lt;div class="flex flex-col items-center mt-32 text-gray-700"&gt;
-    &lt;h1 class="text-6xl leading-none mb-2"&gt;404&lt;/h1&gt;
-    &lt;h2 class="text-3xl"&gt;Page not found&lt;/h2&gt;
+<p>Every company gives their employees some tools to work. Companies using OfficeLife are probably related to technology somehow, and if that's the case, they have laptops and desktops and mice and keyboards and cables that they give to their employees. Keeping track of who has what, and the company's inventory in general, can quickly become a mess. This is why OfficeLife gives companies an easy and simple way of keeping track of hardware.</p>
 
-    &lt;hr class="block w-full max-w-lg mx-auto my-8 border"&gt;
+<h2 id="how-to-manage-hardware">How to manage hardware</h2>
 
-    &lt;p class="text-xl"&gt;Need to update this page? See the &lt;a title="404 Page Documentation" href="/docs/404"&gt; documentation here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-@endsection
-</code></pre>
+<p>The management of your hardware is done inside <a href="/docs/adminland">Adminland</a>.</p>
 
-<hr />
+<h3 id="create-a-new-item">Create a new item</h3>
 
-<p>Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the <a href="https://jigsaw.tighten.co/docs/custom-404-page/">Jigsaw documentation about configuring a custom 404 page.</a></p>
+<p><img src="/assets/img/hardware_creation.png" alt="track a new item" /></p>
+
+<p>To create a new item, you need to specify its name. This is the only information that is required. However, you can also provide another information, labelled as serial number, to help you uniquely identify the object. You don't have to use this field to store the serial number per se, as you can enter whatever you want in it. The goal, really, is to help you identify the object.</p>
+
+<p>Even though you can do it later, you can also associate this item to an employee right away.</p>
+
+<div class="rules">
+  <h4>Rules</h4>
+  <ul>
+    <li>Only employees with the <a href="/docs/understanding-roles">HR or administrator roles</a> can create an item.</li>
+    <li>Both the name and the serial number fields are limited to 255 characters.</li>
+  </ul>
+</div>
 
         <p class="pb-0 text-sm m-0 text-center pt-8">⏰ This document was last changed on Friday, 08-May-2020 12:09:22 UTC.</p>
       </div>
 
       <div class="text-sm text-gray-600 mt-8">
         <ul class="list-none">
-          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/custom-404-page.md">edit this page</a> on Github.</li>
+          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/hardware.md">edit this page</a> on Github.</li>
           <li class="ml-4 pb-7">If you like to <strong>suggest an improvement to this doc</strong>, <a href="https://github.com/djaiss/officelife-documentation/issues">create an issue</a> on the repository on Github.</li>
           <li class="ml-4 text-center">No matter what, thanks for considering helping this project 🙏</li>
         </ul>

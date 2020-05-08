@@ -29,9 +29,8 @@ An employee can indicate that he will work from home by checking the checkbox on
 
 ![image representating how to work from home](/assets/img/work_from_home.png)
 
-<div class="sdfasdf">
+<div class="rules">
   <h4>Rules</h4>
-
   <ul>
     <li>Only the employee can indicated that he will work from home. No one else (regardless of [their roles](/docs/understanding-roles)).</li>
     <li>Can be edited by employees with HR and administrator roles.</li>

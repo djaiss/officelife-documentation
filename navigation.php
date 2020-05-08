@@ -30,10 +30,7 @@ return [
         'children' => [
             'Create and delete a team' => 'docs/create-a-team',
             'Employee profile' => 'docs/employee-profile',
-            'Team description' => 'docs/team-description',
-            'Team news' => 'docs/team-news',
             'Useful links' => 'docs/useful-links',
-            'Audit logs' => 'docs/team-audit-logs',
         ],
     ],
     'Teams' => [
@@ -45,6 +42,12 @@ return [
             'Team news' => 'docs/team-news',
             'Useful links' => 'docs/useful-links',
             'Audit logs' => 'docs/team-audit-logs',
+        ],
+    ],
+    'Company' => [
+        'url' => 'docs/company',
+        'children' => [
+            'Hardware management' => 'docs/hardware',
         ],
     ],
     'Official site' => 'https://officelife.io',
