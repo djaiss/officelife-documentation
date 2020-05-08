@@ -15,13 +15,20 @@ Every company gives their employees some tools to work. Companies using OfficeLi
 
 ## How to manage hardware {#how-to-manage-hardware}
 
-### Keep track of a new item {#keep-track-of-a-new-item}
+The management of your hardware is done inside [Adminland](/docs/adminland).
+
+### Create a new item {#create-a-new-item}
 
 ![track a new item](/assets/img/hardware_creation.png)
 
-## Rules {#rules}
+To create a new item, you need to specify its name. This is the only information that is required. However, you can also provide another information, labelled as serial number, to help you uniquely identify the object. You don't have to use this field to store the serial number per se, as you can enter whatever you want in it. The goal, really, is to help you identify the object.
 
-* Everyone in the company can read all the team news.
-* By default, only the 3 latest news are displayed on the team page, but there is a link to read all the news on a dedicated page.
-* Creating a team news is restricted to team members, and employees with the [HR or administrator roles](/docs/understanding-roles).
-* Updating and deleting a news can be done by anyone in the company, regardless of their roles. That will change in the future.
+Even though you can do it later, you can also associate this item to an employee right away.
+
+<div class="rules">
+  <h4>Rules</h4>
+  <ul>
+    <li>Only employees with the <a href="/docs/understanding-roles">HR or administrator roles</a> can create an item.</li>
+    <li>Both the name and the serial number fields are limited to 255 characters.</li>
+  </ul>
+</div>
