@@ -28,7 +28,7 @@ return [
     'Employees' => [
         'url' => 'docs/employees',
         'children' => [
-            'Create and delete a team' => 'docs/create-a-team',
+            'Create and delete an employee' => 'docs/employee-management',
             'Employee profile' => 'docs/employee-profile',
             'Useful links' => 'docs/useful-links',
         ],
