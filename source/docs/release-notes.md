@@ -11,8 +11,8 @@ section: content
 
 As described on [the Getting started page](/docs/getting-started#pricing), OfficeLife is offered in two flavors:
 
-* as a hosted version, on https://officelife.io, that we (OfficeLife developers) host and which requires a fee to be able to use it,
-* as an open source software, on https://github.com/djaiss/officelife, that you need to install and maintain yourself.
+* as a hosted version, on [https://officelife.io](https://officelife.io), that we (OfficeLife developers) host and which requires a fee to be able to use it,
+* as an open source software, on [https://github.com/djaiss/officelife](https://github.com/djaiss/officelife), that you need to install and maintain yourself.
 
 Because of that, I can't simply ship new versions of the software without versioning it. That would greatly complexify the upgrade process of companies who choose to use the open source version. Thus, every new version should have a proper image and name.
 

@@ -7,13 +7,13 @@ section: content
 
 # Employees {#employees}
 
-Introduced in OfficeLife 2020.1.
-
 ## Overview {#overview}
 
-An Employee is the core concept behind OfficeLife. It represents a human who works at a company, and is paid by this company (most of the time).
+An Employee is one of the core concepts of OfficeLife. It represents a human who works at a company.
 
-In OfficeLife, an Employee is not necessarily linked to a User. A user is someone who has access to OfficeLife, and when he’s inside his account, he’s an Employee. However, an Employee can be added to OfficeLife by a User, and not be associated with another User.
+In OfficeLife, an employee is not necessarily linked to a user. It’s really important to understand this. A user can have two different accounts in two different companies, with the same user account. This is because when a user creates an account in OfficeLife, he can actually join an existing company or create a new one.
+
+A user is someone who has access to OfficeLife, and when he’s inside his account, he’s an employee. However, an employee has to be created inside OfficeLife by a user.
 
 ## Profile page {#profile-page}
 
