@@ -22,6 +22,10 @@ Anyone in the team can create an entry in the Recent ships log. When an entry is
 
 When an entry is associated to specific people, it will also appear on the Employee profile page as well.
 
+This is how the details of an entry looks like:
+
+![details of a recent ship entry](/assets/img/recent_ship_show.png)
+
 ## Creating an entry {#creating-an-entry}
 
 Creating a Recent ship entry takes place on the Team page itself. Anyone in the team can create an entry. The entry will be visible by the entire company and can always be edited or deleted anytime.
@@ -42,22 +46,6 @@ You can associate employees from another team as well if you so desire, as somet
   </ul>
 </div>
 
-## Editing an entry {#editing-an-entry}
-
-Team members and administrators can edit an entry that was previously created. When an entry is edited, changes will be reflected immediately.
-
-If employees were previously associated with the entry and are now being removed, they will receive a notification.
-
-<div class="rules">
-  <h4>Rules</h4>
-  <ul>
-    <li>An entry can be edited by someone with either <a href="/docs/understanding-roles">the HR or administrator role</a>, or someone who is part of the team.</li>
-    <li>The title of the entry is mandatory and limited to 255 characters.</li>
-    <li>The description is optional, supports Markdown and is to 65555 characters.</li>
-    <li>Associating an entry to a specific employee is optional.</li>
-  </ul>
-</div>
-
 ## Deleting an entry {#deleting-an-entry}
 
 HR and administrators can delete an entry that was previously created.
@@ -70,3 +58,17 @@ When an entry is deleted, notifications that employees received if they were ass
     <li>An entry can be deleted by someone with either <a href="/docs/understanding-roles">the HR or administrator role</a>.</li>
   </ul>
 </div>
+
+## Recent ships on the employee profile page {#recent-ships-on-the-employee-profile-page}
+
+The recent ship entries will be displayed on the employee’s profile page when the employee is associated with this entry.
+
+For now, all entries are displayed - we don't limit the number of entries that should appear here. We might revisit this in the future to include a "View all" so we can display something like 3 entries.
+
+![all the entries on user profile](/assets/img/recent_ship_employee_profile.png)
+
+## Recent ships on the dashboard’s team page {#recent-ships-on-the-dashboard-team-page}
+
+When an employee belongs to a team, he has access to a Team dashboard. On this dashboard, amongst other things, the employee can see the list of recent ship entries for this team. This list only shows the 3 latest entries.
+
+![all the entries on dashboard team profile](/assets/img/recent_ship_teams_dashboard.png)
