@@ -22,6 +22,7 @@ return [
         'children' => [
             'Manage employees' => 'docs/employee-management',
             'Employee profile' => 'docs/employee-profile',
+            'Skills' => 'docs/skills',
         ],
     ],
     'Teams' => [
