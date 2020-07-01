@@ -18,7 +18,6 @@ Skills in OfficeLife are here to solve this problem. Employees can enter their o
 You can browse skills in several ways:
 
 * from the employee’s profile: you can click on a skill to browse all employees who have this skill,
-* you can use the Search bar to find a skill,
 * you can finally go on the Company tab and access the list of skills there.
 
 ### On the company page

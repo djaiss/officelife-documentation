@@ -23,6 +23,7 @@ return [
             'Manage employees' => 'docs/employee-management',
             'Employee profile' => 'docs/employee-profile',
             'Skills' => 'docs/skills',
+            'Expenses' => 'docs/expenses',
         ],
     ],
     'Teams' => [
@@ -39,7 +40,9 @@ return [
     'Company' => [
         'url' => 'docs/company',
         'children' => [
+            'Company information' => 'docs/company',
             'Hardware management' => 'docs/hardware',
+            'Currency' => 'docs/currency',
         ],
     ],
     'Official site' => 'https://officelife.io',
