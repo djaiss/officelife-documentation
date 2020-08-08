@@ -25,5 +25,6 @@ That being said, updating the name is really easy. Simply click on the Rename bu
   <h4>Rules</h4>
   <ul>
     <li>Only someone with <a href="/docs/understanding-roles">the administrator role</a> can update the company name.</li>
+    <li>The name of the company should be no longer than 255 characters.</li>
   </ul>
 </div>
