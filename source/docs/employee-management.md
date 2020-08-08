@@ -58,6 +58,8 @@ Locking an employee should be used in those cases:
 
 Locking is not a permanent action as you can unlock an account anytime if you change your mind.
 
+If the employee had [the accountant role](/expenses/#who-can-manage-expenses), this role is automatically removed upon locking the employee.
+
 <div class="rules">
   <h4>Rules</h4>
   <ul>

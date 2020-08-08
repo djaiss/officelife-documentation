@@ -9,15 +9,15 @@ section: content
 
 ## Overview {#overview}
 
-Every company needs to deal with money at some point. And at the end of the day, there is always one currency that the company uses to manage this money, even though it has offices around the world.
+Every company needs to deal with money at some point. Money comes with a currency and at the end of the day, even when companies are big and are all around the world, they have only one headquarter that has one main currency.
 
 This is why OfficeLife lets you define one currency for the entire company.
 
-Every amount entered in OfficeLife (mainly for the Expenses feature) will be eventually translated to this currency. Amounts are always stored in the currency that was entered by the employee, but we also convert this amount to the default company currency.
-
-If you change the currency of the company, we will recalculate all the converted amounts used in the company to match the new currency – however we will use the rate that were effective at the date the amount was spent.
-
 Currencies in OfficeLife strictly follow the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) specification, meaning that they are defined by a three letters code. Thus, Euro is `EUR`, US dollars is `USD` and so on.
+
+Current features that use this company's currency:
+
+* [Expenses](/docs/expenses).
 
 ## Define the company’s currency {#define-company-currency}
 
