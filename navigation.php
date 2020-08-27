@@ -12,6 +12,7 @@ return [
         'children' => [
             'What is OfficeLife' => 'docs/getting-started',
             'Values' => 'docs/values',
+            'Installation' => 'docs/installation',
         ],
     ],
     'Dashboard' => [
@@ -30,6 +31,7 @@ return [
         'url' => 'docs/teams',
         'children' => [
             'Manage teams' => 'docs/create-a-team',
+            'Rate your manager' => 'docs/rate-your-manager',
             'Team leader' => 'docs/team-leader',
             'Team description' => 'docs/team-description',
             'Team news' => 'docs/team-news',

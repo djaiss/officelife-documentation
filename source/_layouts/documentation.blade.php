@@ -16,7 +16,7 @@
         @yield('content')
       </div>
 
-      <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on {{ $page->lastModificationDate() }}.</p>
+      <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8"><span class="mr-1">⏰</span> This document was last changed on {{ $page->lastModificationDate() }}.</p>
 
       <div class="text-sm text-gray-600 mt-8">
         <ul class="list-none">
