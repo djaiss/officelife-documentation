@@ -371,17 +371,8 @@
 <ul>
 <li>the amount, along with the currency,</li>
 <li>the date,</li>
-<li>a description,</li>
 <li>the category of the expense.</li>
 </ul>
-
-<p>Your employees can travel and therefore the expense can be charged in a different currency by the one supported by the company.</p>
-
-<p>Every amount entered in OfficeLife is converted to <a href="/docs/currency">the company's currency</a>, but we always keep the original currency along with the original amount in the database. The expense’s amount is always displayed in the original currency, but if we needed to convert it to the company’s currency, we will also display the converted amount next to it.</p>
-
-<p>When the employee enters an amount with a currency that is different from the company’s currency, OfficeLife will automatically convert it using the company’s currency, at the exchange rate that was in place at the date the expense occured.</p>
-
-<p>If you change the currency of the company, we will recalculate all the converted amounts used in the company to match the new currency – however we will use the rate that were effective at the date the expense occured. Depending on the amount of previous expenses in your company, this process can take a long time, so please patient.</p>
 
 <div class="rules">
   <h4>Rules</h4>
@@ -391,10 +382,19 @@
     <li>Only employees with either <a href="/docs/understanding-roles">the HR or administrator role</a> can approve an expense already approved by a manager.</li>
     <li>The amount has to be a number. We support both comas or dots in the number, and spaces are allowed too. The amount is stored as cents in the database.</li>
     <li>The currency is mandatory and comes from a list of pre-configured list that can’t be changed.</li>
-    <li>Description is optional, can contain up to 65 535 characters and supports [the Markdown format](/docs/markdown).</li>
     <li>The category is optional but highly recommended.</li>
   </ul>
 </div>
+
+<h4>Note about the currency</h4>
+
+<p>Your employees can travel and therefore the expense can be charged in a different currency by the one supported by the company.</p>
+
+<p>Every amount entered in OfficeLife is converted to <a href="/docs/currency">the company's currency</a>, but we always keep the original currency along with the original amount in the database. The expense’s amount is always displayed in the original currency, but if we needed to convert it to the company’s currency, we will also display the converted amount next to it.</p>
+
+<p>When the employee enters an amount with a currency that is different from the company’s currency, OfficeLife will automatically convert it using the company’s currency, at the exchange rate that was in place at the date the expense occured.</p>
+
+<p>If you change the currency of the company, we will recalculate all the converted amounts used in the company to match the new currency – however we will use the rate that were effective at the date the expense occured. Depending on the amount of previous expenses in your company, this process can take a long time, so please patient.</p>
 
 <h3 id="deleting-an-expense">Deleting an expense</h3>
 
@@ -449,7 +449,9 @@
 
 <p>The accounting department is ultimately the last step of managing expenses in your company. They have the final word. It’s very rare that an expense will be rejected by this department if the manager already approved it, but it can happen.</p>
 
-<p>Why does the accounting department need to approve the expense? Technically, they don’t « approve » the expense - they simply acknowledge that all the information is correct before being filed and reimbursed.</p>
+<p>Why does the accounting department need to approve the expense? Technically, they don’t « approve » the expense - they simply acknowledge that all the information is correct before being filed and reimbursed.</p>
+
+<p>When the accountant approves the expense, he needs to indicate the date the expense should appear on the employee’s paycheck.</p>
 
 <p>If the expense is approved:</p>
 
@@ -521,8 +523,6 @@
 
 <p>Accountants have access to a new tab on the dashboard called Expenses. This is where they will be able to manage all the expenses that reach the Accounting stage. They will be able to verify an expense, reject one, and will be eventually responsible for putting the amount of the expense on the payroll of the employee.</p>
 
-<p>METTRE UNE INFORMATION DE QUAND EST CE QUE LA PAIE REFLÉTERA L EXPENSE.</p>
-
 <p>The management of the accountants is done in Adminland.</p>
 
 <h3>Attributing the accounting role to an employee</h3>
@@ -548,7 +548,7 @@
 <p>Note that when you lock an employee who had the accountant role, the employee loses automatically this role, for safety measure.</p>
       </div>
 
-      <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on Sunday, 09-Aug-2020 14:12:19 UTC.</p>
+      <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on Thursday, 27-Aug-2020 22:51:07 UTC.</p>
 
       <div class="text-sm text-gray-600 mt-8">
         <ul class="list-none">

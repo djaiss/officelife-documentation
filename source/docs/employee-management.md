@@ -58,14 +58,16 @@ Locking an employee should be used in those cases:
 
 Locking is not a permanent action as you can unlock an account anytime if you change your mind.
 
-If the employee had [the accountant role](/expenses/#who-can-manage-expenses), this role is automatically removed upon locking the employee.
-
 <div class="rules">
   <h4>Rules</h4>
   <ul>
     <li>Only employees with the <a href="/docs/understanding-roles">HR or administrator roles</a> can lock an employee.</li>
     <li>An employee can't lock himself, even with enough permissions. That means an administrator can't lock himself.</li>
     <li>Once an employee is locked, he won’t appear in the search results anymore, nor in the list of employees in the application.</li>
+    <li>He won’t be listed in the list of team members if he was part of a team.</li>
+    <li>If the employee was a manager with expenses to validate, expenses will be moved to the accounting stage directly.</li>
+    <li>If the employee was had [the accountant role](/expenses/#who-can-manage-expenses), this role will automatically be removed.</li>
+    <li>[Current polls](/rate-your-manager) about the employee (if this employee was a manager) will be stopped immediately.</li>
     <li>He will still appear in the list of employees inside Adminland.</li>
     <li>All content written by the employee will still be available for everyone to see (worklogs, answers to questions,…).</li>
     <li>The employee’s profile will still be accessible through direct links.</li>

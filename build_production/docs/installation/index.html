@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Indicate the important URLs for a team.">
+  <meta name="description" content="How to get started for real.">
 
   <meta property="og:site_name" content="OfficeLife Documentation Portal" />
-  <meta property="og:title" content="Team useful links | OfficeLife Documentation Portal" />
-  <meta property="og:description" content="Indicate the important URLs for a team." />
-  <meta property="og:url" content="https://docs.officelife.io/docs/team-useful-link" />
+  <meta property="og:title" content="Installation | OfficeLife Documentation Portal" />
+  <meta property="og:description" content="How to get started for real." />
+  <meta property="og:url" content="https://docs.officelife.io/docs/installation" />
   <meta property="og:image" content="/assets/img/logo.png" />
   <meta property="og:type" content="website" />
 
@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   
-  <title>OfficeLife Documentation Portal | Team useful links</title>
+  <title>OfficeLife Documentation Portal | Installation</title>
 
   <link rel="home" href="https://docs.officelife.io">
   <link rel="icon" href="/favicon.ico">
@@ -295,30 +295,48 @@
 
     <div class="w-full lg:w-3/5">
       <div class="DocSearch-content break-words pb-7 lg:pl-7 font-light p-7 sm:shadow md:rounded-lg bg-white" v-pre>
-        <h1 id="team-useful-links">Team useful links</h1>
+        <h1 id="installation">Installation</h1>
 
-<p>Introduced in OfficeLife 2020.1.</p>
+<h2 id="requirements-for-self-hosting">Requirements for self-hosting</h2>
 
-<h2 id="overview">Overview</h2>
-
-<p>A team has a life on its own. There are many online places that are useful to a particular team: a dedicated Slack channel, a mailing list name, a private joke... Because each team is unique, it deserves its own set of links.</p>
-
-<p>A team can have multiple links, called "useful links". Those links are public in the sense that anyone can see them, or click on them (although accessing the content of those links themselves is out of our control – a protected Google Docs for instance, couldn't be accessed without proper access).</p>
-
-<h2 id="rules">Rules</h2>
+<p>OfficeLife requires the following technologies to run efficiently</p>
 
 <ul>
-<li>Anyone on the team, and employees with the <a href="/docs/understanding-roles">HR or administrator roles</a>, can add, edit or remove these links.</li>
-<li>A link has a type. Right now we support only Slack, emails and external urls.</li>
-<li>When creating a link, the label is optional, whereas the URL itself is mandatory. If a label is added, this will be the text that will displayed to the user for the given link. Otherwise, the URl will be displayed instead.</li>
+<li>PHP 7.4 or higher,</li>
+<li>the PHP's intl extension,</li>
+<li>mySQL or SQLite,</li>
+<li>Nginx,</li>
+<li>We recommend <a href="https://forge.laravel.com/">Forge</a> or <a href="https://ploi.io">Ploi</a> to provision the servers needed to run OfficeLife.</li>
 </ul>
+
+<h2 id="populate-account-with-fake-data">Populate account with fake data</h2>
+
+<p>We provide a way to try out OfficeLife with semi-real data that will give you a good sense of what the tool's capabilities are. That will fill your account with a lot of employees with a lot of activities.</p>
+
+<p>We provide a custom command that needs to be executed in the terminal to achieve this.</p>
+
+<p>☢️ Warning: running this command will wipe your database entirely in order to set up a new set of data. Make sure you backup any existing data before running this command.</p>
+
+<p>The CLI command: <code>php artisan setup:dummyaccount</code></p>
+
+<p><img src="/assets/img/installation_dummy_script.png" alt="cli command to populate the database" /></p>
+
+<p>Depending on your database and hardware, it can take up to a minute for the script to completely run.</p>
+
+<p>Once the script has run, two accounts will be created.</p>
+
+<p>One of the account will be Michael Scott, administrator of the account and you should be able to sign in to your account by using <code>admin@admin.com</code> as your email address, and <code>admin</code> as the password. It will have a lot of data.</p>
+
+<p>The second account will be an empty account, so you can see the blank state. You need to sign in with <code>blank@blank.com</code> and the password <code>blank</code>.</p>
+
+<p>Both accounts will have the administrator privilege, meaning that you will have full power and control over everything in the instance. It will also have the accountant role, in order to view and manage expenses from everyone.</p>
       </div>
 
       <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on Thursday, 27-Aug-2020 22:51:07 UTC.</p>
 
       <div class="text-sm text-gray-600 mt-8">
         <ul class="list-none">
-          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/team-useful-link.md">edit this page</a> on Github.</li>
+          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/installation.md">edit this page</a> on Github.</li>
           <li class="ml-4 pb-7">If you like to <strong>suggest an improvement to this doc</strong>, <a href="https://github.com/djaiss/officelife-documentation/issues">create an issue</a> on the repository on Github.</li>
         </ul>
       </div>
