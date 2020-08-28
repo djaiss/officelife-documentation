@@ -19,7 +19,9 @@ An employee has a set of basic information:
 
 * name,
 * email address,
-* birthdate.
+* birthdate,
+* Twitter handle,
+* Slack handle.
 
 ## Employee birthdate {#employee-birthdate}
 
