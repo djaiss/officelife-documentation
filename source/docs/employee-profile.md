@@ -51,3 +51,9 @@ If this date is set in the future, that means the employee will soon join the co
     <li>Only employees with either the <a href="/docs/understanding-roles">HR or administrator roles</a> can update the hiring date information.</li>
   </ul>
 </div>
+
+### Work anniversaries {#work-anniversaries}
+
+It’s interesting to know when a colleague has a work anniversary. It’s a time to celebrate. OfficeLife will warn employees when a work anniversary will occur in the upcoming week. This information is displayed on the team’s dashboard for everyone to see.
+
+![work anniversary on team dashboard](/assets/img/dashboard_team_work_anniversary.png)
