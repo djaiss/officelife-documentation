@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="This is what is used to describe what a team does.">
+  <meta name="description" content="Manage one-on-ones of your employees.">
 
   <meta property="og:site_name" content="OfficeLife Documentation Portal" />
-  <meta property="og:title" content="Team description | OfficeLife Documentation Portal" />
-  <meta property="og:description" content="This is what is used to describe what a team does." />
-  <meta property="og:url" content="https://docs.officelife.io/docs/team-description" />
+  <meta property="og:title" content="One-on-one | OfficeLife Documentation Portal" />
+  <meta property="og:description" content="Manage one-on-ones of your employees." />
+  <meta property="og:url" content="https://docs.officelife.io/docs/one-on-one" />
   <meta property="og:image" content="/assets/img/logo.png" />
   <meta property="og:type" content="website" />
 
@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   
-  <title>OfficeLife Documentation Portal | Team description</title>
+  <title>OfficeLife Documentation Portal | One-on-one</title>
 
   <link rel="home" href="https://docs.officelife.io">
   <link rel="icon" href="/favicon.ico">
@@ -131,7 +131,7 @@
             <li class="pl-4 list-none">
       
     <a href="/docs/employees"
-        class="lvl0   nav-menu__item hover:text-blue-500"
+        class="lvl0 lvl0-active  nav-menu__item hover:text-blue-500"
     >
         Employees
     </a>
@@ -177,7 +177,7 @@
             <li class="pl-4 list-none">
       
     <a href="/docs/one-on-one"
-        class="lvl1   nav-menu__item hover:text-blue-500"
+        class="lvl1  active font-semibold text-blue-500 no-underline nav-menu__item hover:text-blue-500"
     >
         One-on-one
     </a>
@@ -188,7 +188,7 @@
             <li class="pl-4 list-none">
       
     <a href="/docs/teams"
-        class="lvl0 lvl0-active  nav-menu__item hover:text-blue-500"
+        class="lvl0   nav-menu__item hover:text-blue-500"
     >
         Teams
     </a>
@@ -216,7 +216,7 @@
             <li class="pl-4 list-none">
       
     <a href="/docs/team-description"
-        class="lvl1  active font-semibold text-blue-500 no-underline nav-menu__item hover:text-blue-500"
+        class="lvl1   nav-menu__item hover:text-blue-500"
     >
         Team description
     </a>
@@ -304,38 +304,63 @@
 
     <div class="w-full lg:w-3/5">
       <div class="DocSearch-content break-words pb-7 lg:pl-7 font-light p-7 sm:shadow md:rounded-lg bg-white" v-pre>
-        <h1 id="team-description">Team description</h1>
-
-<p>Introduced in OfficeLife 2020.1.</p>
+        <h1 id="one-on-ones">One-on-ones</h1>
 
 <h2 id="overview">Overview</h2>
 
-<p>Teams have several elements that help different people in the company: description and useful links.</p>
+<p>One-on-ones are vital processes in every company. Managers need to spend some time with their employees to let them share ideas and concerns. That's also a great way to strengthen the relationships between them. Most importantly, it ensures that employees feel like they are working towards their goals.</p>
 
-<p>The description, simply put, is all about what the team does. It should be a simple sentence, or can contain interesting facts about the team. Useful links are links that help understand how the team works. They could be a link to a JIRA instance, to a private Slack channel,...</p>
+<p>OfficeLife provides a convenient way to do one-on-ones.</p>
 
-<p>Having those two concepts help different kind of people:</p>
+<p>At its core, one on one is a process between the employee and his/her manager. In real life, they both have some kind of agenda that is discussed every time the two meet. OfficeLife is no different. It will give you an entry for each occurence of the one on one process, and both participants can participe in creating the agenda or changing things the way they want.</p>
+
+<p>OfficeLife won’t manage the recurrence of this meeting. It’s up to the manager or the direct report to create a new entry of this meeting, every time it needs to happen.</p>
+
+<h2 id="creating-a-one-on-one">Creating a one-on-one</h2>
+
+<p>The feature of One-on-ones exists automatically if an employee is assigned to a manager. It will appear on</p>
 
 <ul>
-<li>new team members can quickly have a glance of what the team does and how it operates,</li>
-<li>members from other teams, especially in larger organizations, can understand why the team exists and how it can help them.</li>
+<li>the dashboard of the direct report,</li>
+<li>the Manager tab on the dashboard of the manager.</li>
 </ul>
 
-<h2 id="rules">Rules</h2>
+<p><img src="/assets/img/dashboard_one_on_one_with_manager.png" alt="dashboard one on one with manager" /></p>
+
+<p>A one-on-one entry is composed of:</p>
 
 <ul>
-<li>Can be viewed by anyone in the company.</li>
-<li>Can be edited by any members of the team (regardless of <a href="/docs/understanding-roles">their roles</a>).</li>
-<li>Can be edited by employees with HR and administrator roles.</li>
-<li>Description can contain up to 65 535 characters and supports <a href="/docs/markdown">the Markdown format</a>.</li>
+<li>talking points,</li>
+<li>action items,</li>
+<li>optional notes.</li>
 </ul>
+
+<p>Each talking point and action item can be checked to make sure the point has been covered during the discussion. However, if there are action items that are not checked during the meeting, they will be carried over the next entry (as talking points) so it’s not forgotten. That lets you make follow ups and make sure nothing falls into the cracks.</p>
+
+<h2 id="creating-another-one-on-one">Creating another one-on-one</h2>
+
+<p>Every one-on-one meeting needs its own agenda. This is why on every entry, there is a button that says <code>Mark as happened</code>.</p>
+
+<p>This button marks the current entry as completed, and creates a new entry.</p>
+
+<p><img src="/assets/img/dashboard_one_on_one.png" alt="dashboard one on one" /></p>
+
+<p>Once an entry is completed, its content can’t be changed, ever.</p>
+
+<h2 id="editing-a-one-on-one">Editing a one-on-one</h2>
+
+<p>One-on-ones can be modified by either the manager or the direct report, as long they have not been marked as completed. In this case, the entries can’t be modified and are in a read-only mode.</p>
+
+<h2>Viewing past entries</h2>
+
+<p>All previous entries (and of course, the current entry) can be consulted by either the manager or the direct report on the dashboard, as well as on the profile of both employees.</p>
       </div>
 
       <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on Wednesday, 16-Sep-2020 12:52:26 UTC.</p>
 
       <div class="text-sm text-gray-600 mt-8">
         <ul class="list-none">
-          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/team-description.md">edit this page</a> on Github.</li>
+          <li class="ml-4 pb-2">If you <strong>spot an error or a need for improvement</strong> and would like to <strong>fix it yourself</strong> in a pull request, <a href="https://github.com/djaiss/officelife-documentation/tree/master/source/docs/one-on-one.md">edit this page</a> on Github.</li>
           <li class="ml-4 pb-7">If you like to <strong>suggest an improvement to this doc</strong>, <a href="https://github.com/djaiss/officelife-documentation/issues">create an issue</a> on the repository on Github.</li>
         </ul>
       </div>
