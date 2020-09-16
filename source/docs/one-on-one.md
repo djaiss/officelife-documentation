@@ -1,6 +1,6 @@
 ---
 title: One-on-one
-description: Manage one-on-ones of your employees.
+description: Manage one-on-ones between employees and managers.
 extends: _layouts.documentation
 section: content
 ---
