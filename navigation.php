@@ -24,6 +24,7 @@ return [
             'Employee profile' => 'docs/employee-profile',
             'Skills' => 'docs/skills',
             'Expenses' => 'docs/expenses',
+            'One-on-one' => 'docs/one-on-one',
         ],
     ],
     'Teams' => [
