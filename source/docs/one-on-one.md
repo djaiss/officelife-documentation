@@ -13,7 +13,7 @@ One-on-ones are vital processes in every company. Managers need to spend some ti
 
 OfficeLife provides a convenient way to do one-on-ones.
 
-At its core, one on one is a process between the employee and his/her manager. In real life, they both have some kind of agenda that is discussed every time the two meet. OfficeLife is no different. It will give you an entry for each occurence of the one on one process, and both participants can participe in creating the agenda or changing things the way they want.
+At its core, one on one is a process between the employee and his/her manager. In real life, they both have some kind of agenda that is discussed every time the two meet. OfficeLife is no different. It will give you an entry for each occurrence of the one on one process, and both participants can participe in creating the agenda or changing things the way they want.
 
 OfficeLife won’t manage the recurrence of this meeting. It’s up to the manager or the direct report to create a new entry of this meeting, every time it needs to happen.
 
