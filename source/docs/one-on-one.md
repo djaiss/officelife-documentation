@@ -48,6 +48,31 @@ Once an entry is completed, its content can’t be changed, ever.
 
 One-on-ones can be modified by either the manager or the direct report, as long they have not been marked as completed. In this case, the entries can’t be modified and are in a read-only mode.
 
-## Viewing past entries
+## Viewing past entries {#viewing-past-entries}
 
 All previous entries (and of course, the current entry) can be consulted by either the manager or the direct report on the dashboard, as well as on the profile of both employees.
+
+### Employee’s profile page {#employee-profile-page}
+
+On the employee's profile page, the 3 latest entries that the direct report had with his manager appear, as seen below.
+
+![employee profile one on one](/assets/img/employee_one_on_ones_latest.png)
+
+When we click on one of these entries, you can see the details of the one on ones.
+
+You also have access to a page listing all the one on ones that ever happened between the employee and his manager, or previous managers – even if the employee currently doesn't have any managers. This page indicates two useful statistics:
+
+* how many occurences of one on ones the employee has had in the last 365 days,
+* how many days on average are there between one on ones sessions.
+
+This transparency might be very useful for both the employee and his manager, so they both know if they should meet more often.
+
+No one, except the employee, the manager or someone with either the HR or administrator role, can view those one on ones.
+
+### On the dashboard for managers {#dashboard-manager}
+
+When you are a manager, you need to have a quick way to see all one on ones with all your direct reports.
+
+This is why all the one on ones are located inside the Manager tab on the dashboard, as seen below.
+
+![employee profile one on one](/assets/img/dashboard_manager_one_on_one.png)

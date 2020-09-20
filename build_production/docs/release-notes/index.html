@@ -117,6 +117,15 @@
     </a>
   
   </li>
+            <li class="pl-4 list-none">
+      
+    <a href="/docs/installation"
+        class="lvl1   nav-menu__item hover:text-blue-500"
+    >
+        Installation
+    </a>
+  
+  </li>
     </ul>
   </li>
             <li class="pl-4 list-none">
@@ -306,8 +315,6 @@
       <div class="DocSearch-content break-words pb-7 lg:pl-7 font-light p-7 sm:shadow md:rounded-lg bg-white" v-pre>
         <h1 id="release-notes">Release notes</h1>
 
-<h2 id="versioning-scheme">Versioning scheme</h2>
-
 <p>As described on <a href="/docs/getting-started#pricing">the Getting started page</a>, OfficeLife is offered in two flavors:</p>
 
 <ul>
@@ -315,14 +322,33 @@
 <li>as an open source software, on <a href="https://github.com/djaiss/officelife">https://github.com/djaiss/officelife</a>, that you need to install and maintain yourself.</li>
 </ul>
 
-<p>Because of that, I can't simply ship new versions of the software without versioning it. That would greatly complexify the upgrade process of companies who choose to use the open source version. Thus, every new version should have a proper image and name.</p>
+<p>Because OfficeLife is offered on premise, we need to make incremental releases every time new features or changes are made to the software. Having releases is beneficial because:</p>
 
-<p>The traditional way of naming versions would be to follow <a href="https://semver.org/">Semantic Versioning</a> (or SemVer). But I find it hard to understand. Version numbers don’t really matter anymore. SemVer is useful to track breaking changes on packages, but in the context of an application, they don't mean much. You don’t expect an app to break because you’ve upgraded to a new version of the software.</p>
+<ul>
+<li>customers are in control to decide if they want to upgrade, and when they need to upgrade.</li>
+<li>releases always come with a changelog, so customers know which features they will get.</li>
+</ul>
 
-<p>Date-based version-numbering scheme (I first saw this on <a href="https://marco.org/2019/04/27/overcast-clip-sharing">Marco’s blog</a>) seems easier. Version 2020.3 for instance, would be the third version released in 2020. This is what we use to describe and reference each version we make.</p>
+<p>A release is an exciting time for us. It means we have done a good amount of work worthy of being shipped to our customers. It’s a time to celebrate, and it’s also the end of a cycle. A new development cycle follows immediately – but we should still celebrate each new version.</p>
+
+<h2 id="versioning-scheme">Versioning scheme</h2>
+
+<p>The traditional way of naming versions would be to follow <a href="https://semver.org/">Semantic Versioning</a> (or SemVer). But we find it hard to understand. Version numbers don’t really matter anymore. SemVer is useful to track breaking changes on packages, but in the context of an application, they don't mean much. You don’t expect an app to break because you’ve upgraded to a new version of the software.</p>
+
+<p>Date-based version-numbering scheme (we first saw this on <a href="https://marco.org/2019/04/27/overcast-clip-sharing">Marco’s blog</a>) seems easier. Version 2020.3 for instance, would be the third version released in 2020. This is what we use to describe and reference each version we make.</p>
+
+<h2 id="marketing-releases">Marketing releases</h2>
+
+<p>It’s our responsability to educate as much as possible what we do. No release should be considered shipped until it’s marketed. The marketing of a new release should follow those steps:</p>
+
+<ul>
+<li>on GitHub, we should have a detailed changelog of what's new, what's changed and what's fixed. This is written automatically.</li>
+<li>a blog post should be written, highlighting the important changes.</li>
+<li>this blog post should be shared on social media.</li>
+</ul>
       </div>
 
-      <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on Wednesday, 16-Sep-2020 13:18:21 UTC.</p>
+      <p class="pb-0 text-sm m-0 text-gray-600 text-center pt-8">⏰ This document was last changed on Sunday, 20-Sep-2020 20:14:01 UTC.</p>
 
       <div class="text-sm text-gray-600 mt-8">
         <ul class="list-none">

@@ -102,6 +102,21 @@ When the employee enters an amount with a currency that is different from the co
 
 If you change the currency of the company, we will recalculate all the converted amounts used in the company to match the new currency – however we will use the rate that were effective at the date the expense occured. Depending on the amount of previous expenses in your company, this process can take a long time, so please patient.
 
+### Viewing expenses {#viewing-expenses}
+
+Expenses can be seen in different places:
+
+* on the employee's dashboard,
+* on the Manager tab on the dashboard,
+* on the Accounting tab on the dashboard,
+* on the employee's profile page.
+
+On the employee’s profile page, the expenses can only be seen by
+
+* the employee who has created this expense,
+* the manager of this employee,
+* someone with either the HR or administrator role.
+
 ### Deleting an expense {#deleting-an-expense}
 
 Expenses can be deleted by the employee if it wasn't approved by a manager or an accountant yet. Once approved, the expense can’t be deleted by the employee who has created it. Only accountants can delete an expense from the system.
