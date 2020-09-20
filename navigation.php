@@ -12,6 +12,7 @@ return [
         'children' => [
             'What is OfficeLife' => 'docs/getting-started',
             'Values' => 'docs/values',
+            'Installation' => 'docs/installation',
         ],
     ],
     'Dashboard' => [
